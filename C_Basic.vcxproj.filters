@@ -30,5 +30,32 @@
     <ClCompile Include="Ex2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Ex3.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Ex4.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PritfEx.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Printf_format.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Scanf.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Scanf_sumEx.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Ex5.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Ex6.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Ex7.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
