@@ -13,29 +13,26 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\ch01">
+      <UniqueIdentifier>{151ada04-3331-42f8-9ea1-8a780805c003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ch02">
+      <UniqueIdentifier>{c100efba-9b2c-4ee0-bbb3-b6dbdc62d17b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ch03">
+      <UniqueIdentifier>{f779486e-50be-4eda-bd8f-e9a21e5667cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\practice">
+      <UniqueIdentifier>{7cb657eb-85ad-42dd-9aee-28a20377857d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\practice\ch01">
+      <UniqueIdentifier>{ceaee523-496c-4ec4-be91-fccbdac068e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\practice\ch02">
+      <UniqueIdentifier>{22894cc4-5443-48d2-b408-7a4f8c832ae6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Second.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Test.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Second_fonc.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Ex1.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Ex2.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Ex3.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Ex4.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="PritfEx.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -55,6 +52,36 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Ex7.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Basic\ch01\Test.c">
+      <Filter>소스 파일\ch01</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Basic\ch02\Second.c">
+      <Filter>소스 파일\ch02</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Basic\ch02\Second_fonc.c">
+      <Filter>소스 파일\ch02</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Basic\practice\ch02\Ex1.c">
+      <Filter>소스 파일\practice\ch01</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Basic\practice\ch02\Ex2.c">
+      <Filter>소스 파일\practice\ch01</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Basic\practice\ch03\Ex3.c">
+      <Filter>소스 파일\practice\ch02</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Basic\practice\ch03\Ex4.c">
+      <Filter>소스 파일\practice\ch02</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Basic\ch04\printf1.c">
+      <Filter>소스 파일\ch03</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Basic\ch03\vla.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Basic\ch04\printf2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

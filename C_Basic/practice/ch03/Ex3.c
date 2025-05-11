@@ -3,7 +3,7 @@
 int value;
 
 // 함수 선언
-void func()
+static void func()
 {
 	value = value + 200;
 	printf("%d\n", value);
