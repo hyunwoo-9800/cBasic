@@ -25,11 +25,14 @@
     <Filter Include="소스 파일\practice">
       <UniqueIdentifier>{7cb657eb-85ad-42dd-9aee-28a20377857d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\ch04">
+      <UniqueIdentifier>{c5290973-7988-4cf8-82a6-6f2b323fd310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\practice\ch03">
+      <UniqueIdentifier>{22894cc4-5443-48d2-b408-7a4f8c832ae6}</UniqueIdentifier>
+    </Filter>
     <Filter Include="소스 파일\practice\ch01">
       <UniqueIdentifier>{ceaee523-496c-4ec4-be91-fccbdac068e5}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\practice\ch02">
-      <UniqueIdentifier>{22894cc4-5443-48d2-b408-7a4f8c832ae6}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -69,19 +72,22 @@
     <ClCompile Include="C_Basic\practice\ch02\Ex2.c">
       <Filter>소스 파일\practice\ch01</Filter>
     </ClCompile>
-    <ClCompile Include="C_Basic\practice\ch03\Ex3.c">
-      <Filter>소스 파일\practice\ch02</Filter>
+    <ClCompile Include="C_Basic\practice\ch03\Ex06.c">
+      <Filter>소스 파일\practice\ch03</Filter>
     </ClCompile>
-    <ClCompile Include="C_Basic\practice\ch03\Ex4.c">
-      <Filter>소스 파일\practice\ch02</Filter>
-    </ClCompile>
-    <ClCompile Include="C_Basic\ch04\printf1.c">
-      <Filter>소스 파일\ch03</Filter>
+    <ClCompile Include="C_Basic\practice\ch03\Ex10.c">
+      <Filter>소스 파일\practice\ch03</Filter>
     </ClCompile>
     <ClCompile Include="C_Basic\ch03\vla.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="C_Basic\ch04\printf2.c">
+      <Filter>소스 파일\ch04</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Basic\ch04\printf1.c">
+      <Filter>소스 파일\ch04</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Basic\ch04\printTest.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,7 +1,7 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include <conio.h>
 
-// ÇÔ¼ö ¼±¾ğ
+// í•¨ìˆ˜ ì„ ì–¸
 void print_star(int line)
 {
 
@@ -15,23 +15,23 @@ void print_star(int line)
 			printf("*");
 		}
 		printf("\n");
-	} // for¹® Á¾·á
+	} // forë¬¸ ì¢…ë£Œ
 
-} // ÇÔ¼ö Á¾·á
+} // í•¨ìˆ˜ ì¢…ë£Œ
 
 int main()
 {
 
 	int line = 0;
-	int key_value = 0; // Å°¸¦ ÇÏ³ª ÀÔ·Â¹Ş±â À§ÇÑ º¯¼ö
+	int key_value = 0; // í‚¤ë¥¼ í•˜ë‚˜ ì…ë ¥ë°›ê¸° ìœ„í•œ ë³€ìˆ˜
 	
-	printf("»ï°¢Çü ¸¸µé±â_ÇÔ¼öÈ£Ãâ ¿¹Á¦\n");
-	printf("¸î ÁÙ·Î »ï°¢ÇüÀ» ¸¸µé²¨´Ï?");
+	printf("ì‚¼ê°í˜• ë§Œë“¤ê¸°_í•¨ìˆ˜í˜¸ì¶œ ì˜ˆì œ\n");
+	printf("ëª‡ ì¤„ë¡œ ì‚¼ê°í˜•ì„ ë§Œë“¤êº¼ë‹ˆ?");
 	scanf_s("%d", &line);
 
 	print_star(line);
 
-	printf("Á¾·áÇÏ·Á¸é ¾Æ¹«Å°³ª ´­·¯ÁÖ¼¼¿ä");
+	printf("ì¢…ë£Œí•˜ë ¤ë©´ ì•„ë¬´í‚¤ë‚˜ ëˆŒëŸ¬ì£¼ì„¸ìš”");
 	key_value = _getch();
 
-} // main ³¡
+} // main ë

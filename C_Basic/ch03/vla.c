@@ -1,7 +1,7 @@
-/* Àü¿ªº¯¼ö¿Í Áö¿ªº¯¼ö */
+ï»¿/* ì „ì—­ë³€ìˆ˜ì™€ ì§€ì—­ë³€ìˆ˜ */
 #include <stdio.h>
 
-int value = 0;	// Àü¿ªº¯¼ö
+int value = 0;	// ì „ì—­ë³€ìˆ˜
 
 void main() {
 
@@ -18,7 +18,7 @@ static int func() {
 	//value = 200;
 	//printf("%d", value);
 
-	int value = 0;	// Áö¿ªº¯¼ö
+	int value = 0;	// ì§€ì—­ë³€ìˆ˜
 
 	value = 900;
 	printf("%d", value);

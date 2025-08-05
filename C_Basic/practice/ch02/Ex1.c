@@ -1,21 +1,21 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include <conio.h>
 
 int main()
 {
 
 	int i = 0; 
-	int sum = 0;	// ÇÕ°è Ã³¸®¿ë º¯¼ö
-	int key_value = 0;	// Å°¸¦ ÀÔ·Â¹Þ±â À§ÇÑ º¯¼ö
+	int sum = 0;	// í•©ê³„ ì²˜ë¦¬ìš© ë³€ìˆ˜
+	int key_value = 0;	// í‚¤ë¥¼ ìž…ë ¥ë°›ê¸° ìœ„í•œ ë³€ìˆ˜
 
 	for (i = 0; i <= 100; i++)
 	{
 		sum += i;
-	} // for Á¾·á
+	} // for ì¢…ë£Œ
 
-	printf("1¿¡¼­ 100±îÁöÀÇ ÇÕ = %d \n", sum);
-	printf("Á¾·á¸¦ À§ÇØ ¾Æ¹«Å°³ª ´­·¯ÁÖ¼¼¿ä.");
+	printf("1ì—ì„œ 100ê¹Œì§€ì˜ í•© = %d \n", sum);
+	printf("ì¢…ë£Œë¥¼ ìœ„í•´ ì•„ë¬´í‚¤ë‚˜ ëˆŒëŸ¬ì£¼ì„¸ìš”.");
 
 	key_value = _getch();
 
-} // main Á¾·á
+} // main ì¢…ë£Œ

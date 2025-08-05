@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include <conio.h>
 
 int main() {
@@ -7,9 +7,9 @@ int main() {
 	int j;
 	int line;
 
-	int key_value; // getchÇÔ¼ö ÀúÀå¿ë
+	int key_value; // getchí•¨ìˆ˜ ì €ì¥ìš©
 
-	printf("¸î ÁÙ·Î »ï°¢ÇüÀ» ¸¸µé²¨´Ï?");
+	printf("ëª‡ ì¤„ë¡œ ì‚¼ê°í˜•ì„ ë§Œë“¤êº¼ë‹ˆ?");
 	scanf_s("%d", &line);
 
 	for (i = 0; i < line; i++)
@@ -19,9 +19,9 @@ int main() {
 			printf("*");
 		}
 		printf("\n");
-	} // for Á¾·á
+	} // for ì¢…ë£Œ
 	
-	printf("¾Æ¹« Å°³ª ÀÔ·ÂÇØÁÖ¼¼¿ä.");
-	key_value = _getch(); // Å°¸¦ ÇÏ³ª ÀÔ·Â¹Ş±â À§ÇÔ
+	printf("ì•„ë¬´ í‚¤ë‚˜ ì…ë ¥í•´ì£¼ì„¸ìš”.");
+	key_value = _getch(); // í‚¤ë¥¼ í•˜ë‚˜ ì…ë ¥ë°›ê¸° ìœ„í•¨
 
-} // mina Á¾·á
+} // mina ì¢…ë£Œ
