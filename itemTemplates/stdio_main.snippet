@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>stdio_main</Title>
+      <Shortcut>stdio</Shortcut>
+      <Description>C언어 기본 main 템플릿</Description>
+      <Author>Hyunwoo</Author>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>date</ID>
+          <ToolTip>오늘 날짜</ToolTip>
+          <Default>YYYY/MM/DD</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="cpp">
+        <![CDATA[
+#include <stdio.h>
+
+// 프로그램 설명: 
+// 작성일: $date$
+// 작성자: Hyunwoo
+
+int main(void) {
+    // 여기에 코드 작성
+    printf("Hello, C World!\n");
+
+    return 0;
+}
+        ]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
