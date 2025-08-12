@@ -1,0 +1,20 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.opendb
+*.VC.db
+*.db
+*.db-shm
+*.db-wal
+
+# Build outputs
+Debug/
+Release/
+x64/
+build/
+
+# Misc
+ipch/
+*.log
+*.cache
