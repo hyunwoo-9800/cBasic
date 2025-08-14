@@ -28,6 +28,9 @@
     <Filter Include="소스 파일\practice\ch02">
       <UniqueIdentifier>{faf11ee3-fe70-4f5d-9e60-b05f68c5f452}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\ch03">
+      <UniqueIdentifier>{3a12f48e-2381-40dd-aeff-03313ef51b30}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="test.c">
@@ -50,6 +53,9 @@
     </ClCompile>
     <ClCompile Include="src\practice\ch02\Q10.c">
       <Filter>소스 파일\practice\ch02</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ch03\variable.c">
+      <Filter>소스 파일\ch03</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

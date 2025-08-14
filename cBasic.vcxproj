@@ -25,7 +25,10 @@
     <ClCompile Include="src\ch02\second_func.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="src\practice\ch02\Q10.c" />
+    <ClCompile Include="src\ch03\variable.c" />
+    <ClCompile Include="src\practice\ch02\Q10.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="src\practice\ch02\Q1~Q7.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
