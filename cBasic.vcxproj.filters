@@ -57,5 +57,8 @@
     <ClCompile Include="src\ch03\variable.c">
       <Filter>소스 파일\ch03</Filter>
     </ClCompile>
+    <ClCompile Include="src\ch02\variableClear.c">
+      <Filter>소스 파일\ch03</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
