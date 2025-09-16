@@ -75,5 +75,11 @@
     <ClCompile Include="printf_format.c">
       <Filter>소스 파일\ch04</Filter>
     </ClCompile>
+    <ClCompile Include="src\ch04\scanf.c">
+      <Filter>소스 파일\ch04</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ch04\scanf_score.c">
+      <Filter>소스 파일\ch04</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
