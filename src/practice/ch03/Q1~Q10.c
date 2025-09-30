@@ -21,7 +21,7 @@ int main(void) {
 
 	// 1) 변수 선언
 	puts("1) a. 점수  b. 임시 변수  c. 이름  d. 총합 — 변수를 선언하시오.");
-	puts("   ➡ a: int score = 0;   b: int temp = 0;   c: char name[20] = \"\";   d: double total = 0.0;\n");
+	puts("   → a: int score = 0;   b: int temp = 0;   c: char name[20] = \"\";   d: double total = 0.0;\n");
 
 	int score = 0;          // 점수
 	int temp = 0;           // 임시 변수
@@ -33,14 +33,14 @@ int main(void) {
 
 	// 2) 정수형 변수 value = 100
 	puts("2) 정수형 변수 value를 선언하고 100으로 초기화하는 문장을 작성하시오.");
-	puts("   ➡ int value = 100;\n");
+	puts("   → int value = 100;\n");
 
 	int value = 100;
 	printf("   확인) value=%d\n\n", value);
 
 	// 3) 123456을 저장할 수 있는 데이터형
 	puts("3) 123456을 저장할 수 있는 데이터형은?");
-	puts("   ➡ int형, float형, double형 (※ float는 정밀도 주의)\n");
+	puts("   → int형, float형, double형 (※ float는 정밀도 주의)\n");
 
 	int   num_int = 123456;
 	float num_float = 123456;
@@ -50,7 +50,7 @@ int main(void) {
 
 	// 4) 0.001을 저장할 수 있는 데이터형
 	puts("4) 0.001을 저장할 수 있는 데이터형은?");
-	puts("   ➡ float형, double형\n");
+	puts("   → float형, double형\n");
 
 	float  small_float = 0.001f;
 	double small_double = 0.001;
@@ -60,7 +60,7 @@ int main(void) {
 	puts("5) 다음 코드의 문제점을 설명하시오");
 	puts("   int ch = 10000;");
 	puts("   ch = ch * ch * ch;");
-	puts("   ➡ int의 표현 범위를 넘어 오버플로우 발생\n");
+	puts("   → int의 표현 범위를 넘어 오버플로우 발생\n");
 
 	int ch = 10000;
 	long long ch_big = (long long)ch * ch * ch;  // 올바른 큰 타입 계산
@@ -80,7 +80,7 @@ int main(void) {
 	puts("   int value = 100;");
 	puts("   func();");
 	puts("   }");
-	puts("   ➡ 200\n");
+	puts("   → 200\n");
 
 	int value_test = 100;
 	func();
@@ -123,7 +123,7 @@ int main(void) {
 
 	// 9) int형의 크기
 	puts("9) int형이 저장할 수 있는 크기는 몇 바이트입니까?");
-	puts("   ➡ 4바이트\n");
+	puts("   → 4바이트\n");
 
 	printf("   확인) int 크기 = %zu 바이트\n", sizeof(int));
 
@@ -131,7 +131,7 @@ int main(void) {
 
 	puts("10) 틀린 코드 수정");
 	puts("    원래 코드: int hap; hap = hap + 500;");
-	puts("    ➡ 지역 변수를 초기화하지 않고 사용해서 오류 발생\n");
+	puts("    → 지역 변수를 초기화하지 않고 사용해서 오류 발생\n");
 	puts("    수정 코드: int hap = 0; hap = hap + 500;\n");
 
 	int hap = 0;

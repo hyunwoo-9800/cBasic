@@ -15,26 +15,26 @@
 int main() {
 
     printf("1) 모든 C 프로그램에서 반드시 존재해야 하는 함수는?\n");
-    printf("   ➡ main 함수\n\n");
+    printf("   → main 함수\n\n");
 
     printf("2) 프로그램에 주석문을 추가하기 위해 사용하는 기호는?\n");
-    printf("   ➡ //  (한 줄 주석),  /* */  (여러 줄 주석)\n\n");
+    printf("   → //  (한 줄 주석),  /* */  (여러 줄 주석)\n\n");
 
     printf("3) 함수를 사용하는 이유는?\n");
-    printf("   ➡ 코드 중복 방지, 재사용성 향상, 가독성 및 유지보수성 향상\n\n");
+    printf("   → 코드 중복 방지, 재사용성 향상, 가독성 및 유지보수성 향상\n\n");
 
     printf("4) 헤더 파일을 사용하는 이유는?\n");
-    printf("   ➡ 함수 원형 선언, 매크로, 상수, 구조체, 전역 변수 등을 공유하고\n");
+    printf("   → 함수 원형 선언, 매크로, 상수, 구조체, 전역 변수 등을 공유하고\n");
     printf("      표준 라이브러리 함수 사용 시 필요한 선언을 포함하기 위해\n\n");
 
     printf("5) main() {} 이라고 작성하면 정상 동작하는가?\n");
-    printf("   ➡ 예, 하지만 아무 동작도 하지 않음\n\n");
+    printf("   → 예, 하지만 아무 동작도 하지 않음\n\n");
 
     printf("6) warning C4013: 'getch' undefined; 발생 이유는?\n");
-    printf("   ➡ <conio.h> 헤더 파일을 포함하지 않았기 때문 (비표준 함수)\n\n");
+    printf("   → <conio.h> 헤더 파일을 포함하지 않았기 때문 (비표준 함수)\n\n");
 
     printf("7) 정수형 변수 rate를 선언해 보세요.\n");
-    printf("   ➡ int rate = 0; (또는 초기화 없이 int rate;)\n\n");
+    printf("   → int rate = 0; (또는 초기화 없이 int rate;)\n\n");
 
     return 0;
 }

@@ -37,6 +37,9 @@
     <Filter Include="소스 파일\ch04">
       <UniqueIdentifier>{a331a6d1-b932-4e67-bcf6-14da8aa38d18}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\practice\ch04">
+      <UniqueIdentifier>{38759537-c67a-447f-9361-c73e4bdbbcdb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="test.c">
@@ -80,6 +83,15 @@
     </ClCompile>
     <ClCompile Include="src\ch04\scanf_score.c">
       <Filter>소스 파일\ch04</Filter>
+    </ClCompile>
+    <ClCompile Include="src\practice\ch04\Q1~Q8.c">
+      <Filter>소스 파일\practice\ch04</Filter>
+    </ClCompile>
+    <ClCompile Include="src\practice\ch04\Q9.c">
+      <Filter>소스 파일\practice\ch04</Filter>
+    </ClCompile>
+    <ClCompile Include="src\practice\ch04\Q10.c">
+      <Filter>소스 파일\practice\ch04</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
