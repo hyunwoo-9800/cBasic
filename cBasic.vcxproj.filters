@@ -40,6 +40,9 @@
     <Filter Include="소스 파일\practice\ch04">
       <UniqueIdentifier>{38759537-c67a-447f-9361-c73e4bdbbcdb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\ch05">
+      <UniqueIdentifier>{bf0e5f2f-5761-40e3-9bb0-925047595f3a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="test.c">
@@ -92,6 +95,18 @@
     </ClCompile>
     <ClCompile Include="src\practice\ch04\Q10.c">
       <Filter>소스 파일\practice\ch04</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ch05\op1.c">
+      <Filter>소스 파일\ch05</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ch05\op2.c">
+      <Filter>소스 파일\ch05</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ch05\op3.c">
+      <Filter>소스 파일\ch05</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ch05\op4.c">
+      <Filter>소스 파일\ch05</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
